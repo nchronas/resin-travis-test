@@ -1,0 +1,6 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-systemd
+
+ENV INITSYSTEM on
+
+CMD echo Hi
+
